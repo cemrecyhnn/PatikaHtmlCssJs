@@ -1,0 +1,136 @@
+<html lang="en">
+<head> 
+<meta charset="UTF-8">
+<meta name="viewport" content=width=device=width,initial-scale=1
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title> Alışveriş Sepeti</title>
+<style type="text/css">
+
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic|Montserrat:400,700);
+@import "compass/reset";
+$fontSans : 'Montserrat', sans-serif;
+$fontSerif : 'Droid Serif', serif;
+
+
+@mixin transition($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
+*{ box-sizing:border-box;}
+
+
+
+body {
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  font-family: $fontSerif;
+ 
+}
+ img {
+   max-width:100%;
+ }
+
+
+
+.wrap {
+  width: 75%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 5% 0;
+  margin-bottom: 5em;
+  
+  
+}
+
+.projTitle {
+   font-family: $fontSans;
+    font-weight: bold;
+  text-align: center;
+  font-size: 2em;
+  padding: 1em 0;
+  border-bottom: 1px solid #dadada;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+ 
+}
+
+  }
+}
+
+
+ 
+</style>
+</head>
+<body>
+<script>
+
+$('a.remove').click(function(){
+  event.preventDefault();
+  $( this ).parent().parent().parent().hide( 400 );
+ 
+})
+
+
+  $('a.btn.continue').click(function(){
+    $('li.items').show(400);
+  })
+
+</script>
+<div class="wrap cf">
+  <h1 class="projTitle">Alışveriş Sepeti</h1>
+  <div class="heading cf">
+    <h1></h1>
+    <a href="main.html" class="continue">Alışverişe devam et</a>
+  </div>
+  <div class="cart">
+
+    <ul class="cartWrap">
+      <li class="items odd">
+        
+    <div class="infoWrap"> 
+        <div class="cartSection">
+        <img src="resimler/benjamin.jpg" alt="" class="itemImg" />
+         
+          <h3>Benjamin</h3>
+        
+           <p> <input type="text"  class="qty" placeholder="3"/> 809.90₺</p>
+        
+          <p class="stockStatus"> Stokta var</p>
+        </div>  
+    
+      </div>
+      </li>
+     
+            <li class="items odd">
+             <div class="infoWrap"> 
+        <div class="cartSection">
+            
+        <img src="resimler/orkide.jpg" alt="" class="itemImg" />
+ 
+          <h3>Orkide</h3>
+        
+           <p> <input type="text"  class="qty" placeholder="3"/>290₺ </p>
+        
+          <p class="stockStatus out"> Stokta var</p>
+        </div>  
+    
+       
+              </div>
+      </li>
+     
+  </div>
+  
+  <a href="#" >
+<button  style="background-color:white;color:black;width:50%;">Öde</button>
+
+</div>
+
+
+</body>
+
+ </html>

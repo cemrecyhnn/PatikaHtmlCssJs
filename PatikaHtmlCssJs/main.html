@@ -1,0 +1,199 @@
+<html>
+<head>
+  		<script type="text/javascript">
+	function gor(tus)
+	{  s1=parseInt("1");
+	
+	switch (tus)
+		{ 	
+		case '1' :document.form.sonuc.value=s1;break;
+		case '+' :document.form.sonuc.value=s1+s2;break;
+		
+		}
+	}
+	
+
+	
+	var imgNum=1;
+	</script>
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+
+<title>Viva Lavida</title>
+<style>
+
+
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="eCommerceStyle.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+<div id="mainWrapper">
+  <header> 
+
+
+    <div id="logo"><img src="resimler/logo.jpg" alt="sample logo" width="150" height="150">  </div>
+    <div id="headerLinks">
+	  <h2>Viva Lavida</h2>
+	    <a href="Girişyap.html"  target="_blank" title="Login/Register">Giriş yap</a>
+		<a href="üyeol.html"  target="_blank" title="Login/Register">kayıt ol</a>
+		<a href="iletisim.html"  target="_blank" title="Cart">İletişim</a>
+		<a href="cart.html" title="Cart"> Sepet </a>
+		
+	 </div>
+	  
+	  
+  </header>
+  
+  
+  	<div class="banner">
+	   <marquee behavior="alternate">
+<img src="resimler/10.jpg" width="1000" height="300"  style="margin-left:-5px;"></a>
+<img src="resimler/3.jpg" width="1000" height="300"  style="margin-left:-5px;"></a>
+<img src="resimler/14.jpg" width="1000" height="300"  style="margin-left:-5px;"></a>
+    </marquee>
+
+	
+  </div> 
+ 
+  
+  <div id="content">
+    <section class="sidebar"> 
+ 
+      <input type="text"  id="search" value="search">
+      <div id="menubar">
+        <nav class="menu">
+         
+		 
+          <hr>
+          <ul>
+    <select>
+<option disabled>BİTKİLERİMİZ</option>
+<option value="Ev Bitkiler.html" target="_blank">Ev Bitkileri</option>
+<option value=" Bahçebitkileri.html"> Bahçe Bitkileri</option>
+<option value="iğneyapraklı.html"> İğne Yapraklılar</option>
+
+
+
+		<option value="#" target="_blank">Salon Bitkileri</option>
+		<option value="#" target="_blank">Skulenler</option>
+		<option value="#" target="_blank">Endemik Türler</option>
+		<option value="#" target="_blank">Metafita</option>
+</select>       
+			
+			
+		
+			
+			<h2> BİTKİLERİMİZ</h2>
+          <hr>
+          <ul>
+		  
+        
+            <li><a href="Ev Bitkiler.html" target="_blank" title="Link">Ev Bitkileri</a></li>
+            <li><a href="Bahçebitkiler.html" target="_blank" title="Link">Bahçe Bitkileri</a></li>
+            <li><a href="iğneyapraklılar.html" target="_blank" title="Link">İğne Yapraklılar</a></li>
+			  <li><a href="skulenler.html" target="_blank" title="Link">Skulenler</a></li>
+			 <li><a href="endemik.html" target="_blank" title="Link">Endemik Türler</a></li>
+			  <li><a href="metafita.html" target="_blank" title="Link">Metafita</a></li>
+			 
+          </ul>
+        </nav>
+       
+  
+      </div>
+    </section>
+    <section class="mainContent">
+      <div class="productRow">
+        <article class="productInfo">
+          <div><img src="resimler/benjamin.jpg" alt="sample" width="200" height="200"></div>
+          <p class="price">600₺</p>
+         <p class="productContent">Salon Bitkisi</p>
+		 	<form method="POST" name="form">
+         <a onclick="tus('1')"> <input type="button" name="button1" maxlength="20" size="20" value="Satın Al" class="buyButton"></a><br><br>
+		  </form>
+        </article>
+        <article class="productInfo">
+          <div><img src="resimler/sku.jpg" alt="sample" width="200" height="200"></div>
+          <p class="price">815₺</p>
+          <p class="productContent">Skulen</p>
+          <input type="button" name="button" value="Satın Al" class="buyButton">
+        </article>
+        <article class="productInfo"> 
+          <div><img src="resimler/melisa.jpg" alt="sample" width="200" height="200"> </div>
+          <p class="price">80₺</p>
+          <p class="productContent">Melisa</p>
+          <input type="button" name="button" value="Satın Al" class="buyButton">
+        </article>
+      </div>
+      <div class="productRow"> 
+       
+        <article class="productInfo"> 
+          <div><img src="resimler/men.jpg" alt ="sample" width="200" height="200"> </div>
+          <p class="price">35₺</p>
+          <p class="productContent">Menekşe</p>
+          <input type="button" name="button" value="Satın Al" class="buyButton">
+        </article>
+		
+		
+        <article class="productInfo">
+          <div><img src="resimler/kide.jpg" alt="sample" width="200" height="200"> </div>
+          <p class="price">350₺</p>
+          <p class="productContent">Orkide</p>
+          <input type="button" name="button" value="Satın Al" class="buyButton">
+        </article>
+		
+        <article class="productInfo">
+	  <div> <img src="resimler\karanfil.jpg" alt="sample" width="200" height="200"> </div>
+          <p class="price">260₺</p>
+          <p class="productContent">Karanfil</p>
+          <input type="button" name="button" value="Satın Al" class="buyButton">
+        </article>
+      </div>
+	  
+      <div class="productRow">
+        <article class="productInfo">
+          <div><img src="resimler/benjamin.jpg" alt="sample" width=200" height="200"> </div>
+          <p class="price">200₺</p>
+          <p class="productContent">Benjamin</p>
+          <input type="button" name="button" value="Satın Al" class="buyButton">
+        </article>
+		
+        <article class="productInfo">
+          <div><img src="resimler/bonza.jpg"  alt="sample" width="200" height="200"></div>
+          <p class="price">300₺</p>
+          <p class="productContent">Bonzai</p>
+          <input type="button" name="button" value="Satın al" class="buyButton">
+        </article>
+		
+        <article class="productInfo">
+          <div><img src="resimler/fesleğen.jpg" alt="sample" width="200" height="200"> </div>
+          <p class="price">30₺</p>
+          <p class="productContent">Fesleğen</p>
+          <input type="button" name="button" value="Satın al" class="buyButton">
+        </article>
+      </div>
+    </section>
+  </div>
+ 
+      <div class="temizle"></div>
+    <div class="footer"> 
+	  <div class="alt_cerceve" align="center">
+         	<div class="alt_icerik"><a href=""><img src="resimler/insta.png" width="50" height="50" /></a>
+			<a href=""><img src="resimler/youtube.png" width="50" height="50" /></a>
+			<a href=""><img src="resimler/twitter.png" width="50" height="50" /></a>
+		</div>
+
+            <div class="temizle"></div>
+  <div class="temizle"></div>
+    <div class="yazi1">
+           << Bir Kadın Girişimci Sitesidir >> 
+    </div>
+  </div> 
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+@charset "utf-8";
+.cerceve{width:1000px; margin:0px auto; }
+.banner{width:1000px; height:400px; 
+		margin:0px 0px 10px 0px; 
+		background-color:pink; }
+		
+.menu{width:1000px; height:23px; padding-top:5px; margin-bottom:10px;
+	  background-color:pink;}
+	  
+.sol{width:690px; margin-top:50px; margin-left:300px; margin-right:50px; margin-bottom:50px;
+	 background-color:white;
+	}
+
+.temizle{clear:both;}
+
+.icerik {background-color:white; margin-top:50px; margin-left:50px; margin-right:50px; margin-bottom:50px;
+		 width:%100; 
+		 padding:10px; text-align:justify;}
+		 
+.alt_cerceve {width:700px; height:230px; 
+			  background-color:pink;
+			  margin:0px auto;
+			  padding:20px 0px 0px 0px;}  		 
+.alt_icerik {width:130px; height:130px;
+				background-color:white;
+				margin:0px 10px 0px 0px;
+				float:left;}
+.yazi1 {text-align:center; font-size:36px;
+		color:white; margin:0px auto; 
+		margin:10px 0px 0px 0px;}
+		
+.menum { list-style-type:none; margin:0px; padding:0px; height:30px;}
+.menum li { display:inline;}
+.menum a { text-decoration:none; padding:5px 65px; background-color:#00CCCC; color:#000;}
+.menum a:hover { background-color:white; color:white;}
+
+.sol h1 { margin-left:10px;
+		}
+.sol img{ float:left; margin:0px 10px 10px 0px;}
+body{background:linear-gradient(pink,blue);	}
+
+
+
+.icerik li {list-style-type:none;}
+.icerik a {text-decoration:none;}
+.icerik a:hover {color:pink; size:18px; font-weight:bold;}
+
+
+.icerik table {border:5px; border-style:solid;
+border-collapse:collapse;   border-color:#FF99CC;
+background-color:white;}
+
+
+
+
